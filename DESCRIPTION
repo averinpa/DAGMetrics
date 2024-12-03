@@ -1,0 +1,19 @@
+Package: DAGMetrics
+Title: A Package for Evaluation of DAGs for Causal Discovery
+Version: 0.1.0
+Authors@R: 
+    person("Pavel", "Averin", email = "averinjr@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Tool for evaluating and comparing Directed Acyclic Graphs (DAGs) for causal discovery.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    pcalg,
+    bnlearn,
+    dplyr,
+    Rgraphviz,
+    graph
+    
