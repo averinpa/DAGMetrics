@@ -1,7 +1,7 @@
-# DAGMetrics: A Package for Evaluating and Comparing Bayesian Networks
+# DAGMetrics: A Package for Evaluating and Comparing DAGs
 
 
-`DAGMetrics` is an R package designed to evaluate, compare, and visualize Bayesian networks (DAGs). It provides tools to compute descriptive metrics, compare structures using similarity measures, and visualize individual networks or side-by-side comparisons.
+`DAGMetrics` is an R package designed to evaluate, compare, and visualize DAGs. It provides tools to compute descriptive metrics, compare structures using similarity measures, and visualize individual networks or side-by-side comparisons.
 
 ---
 
@@ -60,7 +60,7 @@ devtools::install_github("averinpa/DAGMetrics")
 
 ## Usage
 
-Here’s how to use the `DAGMetrics` package to evaluate, compare, and visualize Bayesian networks:
+Here’s how to use the `DAGMetrics` package to evaluate, compare, and visualize DAGs:
 
 ### 1. Load the Library
 ```r
@@ -68,34 +68,34 @@ library(DAGMetrics)
 library(bnlearn)
 ```
 ### 2. Create Example Bayesian Networks
-Generate two random Bayesian networks using the bnlearn package:
+Generate two random DAGs using the bnlearn package:
 ```r
 # Generate two random Bayesian networks
 bn1 <- random.graph(nodes = c("A", "B", "C", "D"))
 bn2 <- random.graph(nodes = c("A", "B", "C", "D"))
 ```
 ### 3. Calculate Descriptive Metrics
-Analyze the structural properties of a Bayesian network:
+Analyze the structural properties of a DAG:
 
 ```r
 # Calculate descriptive metrics for bn1
 descriptive_metrics <- calculate_descriptive_metrics(bn1)
 print(descriptive_metrics)
 ```
-### 4. Compare Two Bayesian Networks
+### 4. Compare Two DAGs
 Compute various comparison metrics between two Bayesian networks:
 ```r
 # Compare bn1 and bn2
 comparison_results <- compare_dags(bn1, bn2)
 print(comparison_results)
 ```
-### 5. Visualize a Bayesian Network
+### 5. Visualize a DAG
 Visualize the full structure of a Bayesian network or a subgraph:
 ```r
 # Visualize the entire DAG structure of bn1
 vis_dag(bn1, nodes = "all", name = "Full DAG")
 ```
-### 6. Compare and Visualize Two Networks
+### 6. Compare and Visualize Two DAGs
 Visualize two Bayesian networks side-by-side and highlight their matching arcs:
 ```r
 # Compare and visualize bn1 and bn2
