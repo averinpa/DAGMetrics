@@ -57,13 +57,6 @@ devtools::install_github("averinpa/DAGMetrics")
     - Differences in structure.
   - Visualize subgraphs or the full network.
 
-### Additional Features
-- Easy integration with other R packages like `bnlearn` and `pcalg`.
-- Scalable for small to moderately large Bayesian networks.
-- Designed for causal discovery and structure learning tasks.
-
-
-
 
 ## Usage
 
