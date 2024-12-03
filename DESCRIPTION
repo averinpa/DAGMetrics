@@ -1,10 +1,12 @@
 Package: DAGMetrics
-Title: A Package for Evaluation of DAGs for Causal Discovery
+Title: A package for evaluation of DAGs for causal discovery
 Version: 0.1.0
 Authors@R: 
-    person("Pavel", "Averin", email = "averinjr@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Tool for evaluating and comparing Directed Acyclic Graphs (DAGs) for causal discovery.
+    person("Pavel", "Averin", email = "averinjr@gmail.com", role = c("aut", "cre"))
+Description: Provides tools for evaluating, comparing, and visualizing Directed Acyclic Graphs (DAGs) 
+    used in causal discovery. The package includes metrics for assessing DAG structures, 
+    visualizations of DAGs and their subgraphs, and methods for comparing DAGs using various 
+    similarity measures such as Structural Hamming Distance (SHD) and Hamming Distance (HD).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -16,4 +18,7 @@ Imports:
     dplyr,
     Rgraphviz,
     graph
+URL: https://github.com/averinpa/DAGMetrics
+BugReports: https://github.com/averinpa/DAGMetrics/issues
+
     
