@@ -67,7 +67,7 @@ Here’s how to use the `DAGMetrics` package to evaluate, compare, and visualize
 library(DAGMetrics)
 library(bnlearn)
 ```
-### 2. Create Example Bayesian Networks
+### 2. Create Example DAGs
 Generate two random DAGs using the bnlearn package:
 ```r
 # Generate two random Bayesian networks
