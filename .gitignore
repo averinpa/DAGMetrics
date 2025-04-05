@@ -3,7 +3,7 @@
 .Rhistory
 .RData
 .Ruserdata
-
+*.Rproj
 # Package build artifacts
 *.tar.gz
 *.Rcheck/
